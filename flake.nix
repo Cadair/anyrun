@@ -80,6 +80,7 @@
               translate = mkPlugin "translate";
               websearch = mkPlugin "websearch";
               niri-focus = mkPlugin "niri-focus";
+              pass = mkPlugin "pass";
 
               default = self'.packages.anyrun;
             };
